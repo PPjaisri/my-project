@@ -1,0 +1,57 @@
+# ---------------- Frontend ----------------
+# dependencies
+/chat_app/node_modules
+/chat_app/.pnp
+.pnp.js
+
+# testing
+/chat_app/coverage
+
+# production
+/chat_app/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# ---------------- Backend -----------------
+# compiled output
+/chat-back/dist
+/chat-back/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/chat-back/coverage
+/chat-back/.nyc_output
+
+# IDEs and editors
+/chat-back/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
